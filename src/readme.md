@@ -6,11 +6,6 @@
 A very simple implementation of a revocation method for blockcerts using Ethereum smart-contracts. This is a very early version and it only allows for batch revocation, by the issuer.
 
 
-
-Using:
-Truffle v4.0.1
-Solidity v0.4.18
-
 ## Usage
 Spawn a test node with `truffle develop`,
 
