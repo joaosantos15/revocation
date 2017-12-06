@@ -57,3 +57,17 @@ typings/
 # dotenv environment variables file
 .env
 
+# Logs
+logs
+*.log
+
+# Directories used by tools like mocha & istanbul
+coverage
+shippable
+
+# Generated files
+config/development/contracts.json
+config/development/*.sol.js
+config/test/contracts.json
+build
+dist
