@@ -11,8 +11,7 @@ if (typeof web3 !== 'undefined') {
 
 var stuffToSend =
 {
-  ipfsLink:web3.sha3("hello"),
-  issuerAddress: "blabla"
+  ipfsLink:web3.sha3("QmdrnPNKCUGFHs6r4KiG6PRw6dg3bEjoC6XjeS7fdD1yxz")
 
 }
 

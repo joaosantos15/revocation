@@ -18,6 +18,9 @@ contract Revoke {
 
 	bytes32 public ipfsLinkSha3Digest;
 
+	string public bitcoinTxid;
+	string public batchMerkleRoot;
+
 	address public issuerAddress;
 	address public receiverAddress;
 
@@ -39,6 +42,18 @@ contract Revoke {
 		// Assuming only the issuer can revoke
 		return issuerRevokedBatch;
 	}
+
+	function setBatcMerkleRoot(string merkleRoot) public{
+		require(checkAddress());
+		batchMerkleRoot = merkleRoot;
+
+	}
+
+	function setBitcoinTxid(string btcTxid) public {
+		require (checkAddress());
+		bitcoinTxid = btcTxid;
+	}
+
 
 	function revokeBatch() public{
 		require(checkAddress());
