@@ -1,4 +1,183 @@
 {
-  "address":'blabla',
-  "abi":'[{"constant":false,"inputs":[],"name":"revokeBatch","outputs":[],"payable":false,"type":"function","stateMutability":"nonpayable"},{"constant":false,"inputs":[{"name":"btcTxid","type":"bytes32[]"}],"name":"setBitcoinTxid","outputs":[],"payable":false,"type":"function","stateMutability":"nonpayable"},{"constant":true,"inputs":[{"name":"","type":"uint256"}],"name":"bitcoinTxid","outputs":[{"name":"","type":"bytes32"}],"payable":false,"type":"function","stateMutability":"view"},{"constant":true,"inputs":[],"name":"checkAddress","outputs":[{"name":"","type":"bool"}],"payable":false,"type":"function","stateMutability":"view"},{"constant":true,"inputs":[],"name":"receiverAddress","outputs":[{"name":"","type":"address"}],"payable":false,"type":"function","stateMutability":"view"},{"constant":false,"inputs":[{"name":"merkleRoot","type":"bytes32[]"}],"name":"setBatcMerkleRoot","outputs":[],"payable":false,"type":"function","stateMutability":"nonpayable"},{"constant":true,"inputs":[{"name":"","type":"uint256"}],"name":"batchMerkleRoot","outputs":[{"name":"","type":"bytes32"}],"payable":false,"type":"function","stateMutability":"view"},{"constant":true,"inputs":[],"name":"getBatchRevocationStatus","outputs":[{"name":"","type":"bool"}],"payable":false,"type":"function","stateMutability":"view"},{"constant":true,"inputs":[],"name":"issuerRevokedBatch","outputs":[{"name":"","type":"bool"}],"payable":false,"type":"function","stateMutability":"view"},{"constant":true,"inputs":[],"name":"issuerAddress","outputs":[{"name":"","type":"address"}],"payable":false,"type":"function","stateMutability":"view"},{"constant":true,"inputs":[],"name":"ipfsLinkSha3Digest","outputs":[{"name":"","type":"bytes32"}],"payable":false,"type":"function","stateMutability":"view"},{"inputs":[{"name":"ipfsLinkHash","type":"bytes32"}],"payable":false,"type":"constructor","stateMutability":"nonpayable"}]'
+  "ethereum_stuff": {
+    "contractAddress": "0x8efce4923b3238a747e3ee0f725da50bc245142d",
+    "network":"ropsten",
+    "accessViaBlockchainExplorer": "https://ropsten.etherscan.io/address/0x8efce4923b3238a747e3ee0f725da50bc245142d",
+    "abi": [
+      {
+        "constant": false,
+        "inputs": [],
+        "name": "revokeBatch",
+        "outputs": [],
+        "payable": false,
+        "type": "function",
+        "stateMutability": "nonpayable"
+      },
+      {
+        "constant": false,
+        "inputs": [
+          {
+            "name": "btcTxid",
+            "type": "bytes32[]"
+          }
+        ],
+        "name": "setBitcoinTxid",
+        "outputs": [],
+        "payable": false,
+        "type": "function",
+        "stateMutability": "nonpayable"
+      },
+      {
+        "constant": true,
+        "inputs": [
+          {
+            "name": "",
+            "type": "uint256"
+          }
+        ],
+        "name": "bitcoinTxid",
+        "outputs": [
+          {
+            "name": "",
+            "type": "bytes32"
+          }
+        ],
+        "payable": false,
+        "type": "function",
+        "stateMutability": "view"
+      },
+      {
+        "constant": true,
+        "inputs": [],
+        "name": "checkAddress",
+        "outputs": [
+          {
+            "name": "",
+            "type": "bool"
+          }
+        ],
+        "payable": false,
+        "type": "function",
+        "stateMutability": "view"
+      },
+      {
+        "constant": true,
+        "inputs": [],
+        "name": "receiverAddress",
+        "outputs": [
+          {
+            "name": "",
+            "type": "address"
+          }
+        ],
+        "payable": false,
+        "type": "function",
+        "stateMutability": "view"
+      },
+      {
+        "constant": false,
+        "inputs": [
+          {
+            "name": "merkleRoot",
+            "type": "bytes32[]"
+          }
+        ],
+        "name": "setBatcMerkleRoot",
+        "outputs": [],
+        "payable": false,
+        "type": "function",
+        "stateMutability": "nonpayable"
+      },
+      {
+        "constant": true,
+        "inputs": [
+          {
+            "name": "",
+            "type": "uint256"
+          }
+        ],
+        "name": "batchMerkleRoot",
+        "outputs": [
+          {
+            "name": "",
+            "type": "bytes32"
+          }
+        ],
+        "payable": false,
+        "type": "function",
+        "stateMutability": "view"
+      },
+      {
+        "constant": true,
+        "inputs": [],
+        "name": "getBatchRevocationStatus",
+        "outputs": [
+          {
+            "name": "",
+            "type": "bool"
+          }
+        ],
+        "payable": false,
+        "type": "function",
+        "stateMutability": "view"
+      },
+      {
+        "constant": true,
+        "inputs": [],
+        "name": "issuerRevokedBatch",
+        "outputs": [
+          {
+            "name": "",
+            "type": "bool"
+          }
+        ],
+        "payable": false,
+        "type": "function",
+        "stateMutability": "view"
+      },
+      {
+        "constant": true,
+        "inputs": [],
+        "name": "issuerAddress",
+        "outputs": [
+          {
+            "name": "",
+            "type": "address"
+          }
+        ],
+        "payable": false,
+        "type": "function",
+        "stateMutability": "view"
+      },
+      {
+        "constant": true,
+        "inputs": [],
+        "name": "ipfsLinkSha3Digest",
+        "outputs": [
+          {
+            "name": "",
+            "type": "bytes32"
+          }
+        ],
+        "payable": false,
+        "type": "function",
+        "stateMutability": "view"
+      },
+      {
+        "inputs": [
+          {
+            "name": "ipfsLinkHash",
+            "type": "bytes32"
+          }
+        ],
+        "payable": false,
+        "type": "constructor",
+        "stateMutability": "nonpayable"
+      }
+    ]
+  },
+  "ipfs_stuff": {
+    "ipfsLink": "QmdrnPNKCUGFHs6r4KiG6PRw6dg3bEjoC6XjeS7fdD1yxz",
+    "certificateFileName": "5a3ebe86-b0a5-4766-b124-f7d24a1d0912.json"
+  }
 }
