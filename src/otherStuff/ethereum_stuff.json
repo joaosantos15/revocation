@@ -1,5 +1,5 @@
 {
-  "ethereum_stuff": {
+  "ethereumStuff": {
     "contractAddress": "0x8efce4923b3238a747e3ee0f725da50bc245142d",
     "network":"ropsten",
     "accessViaBlockchainExplorer": "https://ropsten.etherscan.io/address/0x8efce4923b3238a747e3ee0f725da50bc245142d",
@@ -176,7 +176,7 @@
       }
     ]
   },
-  "ipfs_stuff": {
+  "ipfsStuff": {
     "ipfsLink": "QmdrnPNKCUGFHs6r4KiG6PRw6dg3bEjoC6XjeS7fdD1yxz",
     "certificateFileName": "5a3ebe86-b0a5-4766-b124-f7d24a1d0912.json"
   }
